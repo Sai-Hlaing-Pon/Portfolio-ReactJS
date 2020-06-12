@@ -1,15 +1,17 @@
 import React from 'react';
 import icons from '../../../commons/icons'
-import { Row, Col, Button, Card } from 'antd';
+import { Row, Col, Button, Card, } from 'antd';
 import {RightCircleOutlined, ContainerOutlined } from '@ant-design/icons';
+import './element.css'
+import Divider from '@material-ui/core/Divider';
 
 export default class  WhatIdo extends React.Component {
     render() {
         return (
             <div>
-            <div>
+            <div class="body">
                <br></br>
-                        <div  style={{borderLeft:'7px solid #2F4F4F'}}>
+                        <div  style={{borderLeft:'7px solid #54B689', marginTop:'30px',  }}>
                         <h1>What I do</h1>
                         </div>
                         <p>I have more than 10 years' experience building software for clients all over the world. 
@@ -27,7 +29,7 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                Vanilla JavaScript
+                                   <div class="topic"> Vanilla JavaScript</div>
                                   <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                             <Col span={6}>
@@ -50,7 +52,7 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                Angular, React &amp; Vue
+                                <div class="topic">  Angular, React &amp; Vue </div>
                                   <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                             <Col span={6}>
@@ -62,7 +64,7 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                Node.js
+                                <div class="topic">  Node.js </div>
                                     <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                             <Col span={6}>
@@ -74,7 +76,7 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                Python &amp; Django
+                                <div class="topic"> Python &amp; Django</div>
                                     <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                         </Row>
@@ -88,7 +90,7 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                PHP
+                                <div class="topic">  PHP </div>
                                     <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                             <Col span={6}>
@@ -112,7 +114,7 @@ export default class  WhatIdo extends React.Component {
                                    />
 
                                </div>
-                                npm, Gulp &amp; Grunt
+                               <div class="topic">   npm, Gulp &amp; Grunt </div>
                                     <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                             <Col span={6}>
@@ -129,7 +131,7 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                HTML &amp; CSS
+                                <div class="topic"> HTML &amp; CSS</div>
                                     <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                             <Col span={6}>
@@ -146,16 +148,17 @@ export default class  WhatIdo extends React.Component {
                                     />
 
                                 </div>
-                                Sass &amp; LESS
+                                <div class="topic"> Sass &amp; LESS </div>
                                  <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                             </Col>
                         </Row>
                         <center>
-                        <Button style={{backgroundColor:' #2F4F4F', padding:'3px', width:190,height:35}}>
+                        <Button style={{backgroundColor:' #54B689', padding:'3px', width:190,height:35}}>
                                    <p style={{color:'white', fontWeight:700, fontSize:'16px'}}> <RightCircleOutlined />&nbsp;Services and Pricing</p>
                                 </Button>
                         </center>
                         <br />
+                        <Divider style={{ backgroundColor: '#F0F0F0', marginTop:'30px' }} />
                     </div> 
 
             </div>

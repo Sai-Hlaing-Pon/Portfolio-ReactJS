@@ -1,0 +1,22 @@
+  h1,h2, h4{
+        color:black;
+        font-Weight:700; 
+    }
+  .topic {
+      color:black;
+      font-Weight:700; 
+
+  }
+  .body {
+    margin-left: 480px;
+    margin-Right: 200px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
