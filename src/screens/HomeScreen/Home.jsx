@@ -18,8 +18,8 @@ const Home = props => {
             </div>
             <div className={styles.body}>             
                 <div className={styles.container}>
-                    <Row>                        
-                        <Col span={16}>
+                    <Row >                        
+                        <Col>
                             <div className={styles.col1}>
                                 <div className={styles.title}>Sai Hlaing</div> 
                                 <div className={styles.header}> Senior Software Engineer</div>
@@ -28,21 +28,21 @@ const Home = props => {
                                  <a href=''> portfolio </a> and <a>online resume.</a></p>
                             </div>                            
                             <br/>
+                            
                             <div className={styles.col1}>
+                               <Col className='navbar-col-button'>
                                 <Button className={styles.button1}>
                                   <RightCircleOutlined />View Portfolio
                                 </Button>
+                                
                                 <Button className={styles.button2}>
                                    <ContainerOutlined />View Resume
                                 </Button>
+                                </Col>  
                             </div>
                         </Col>
 
-                        <Col span={8}>
-                            <div>
-                               <img className={styles.image} alt="myprofile" src={profile1} />
-                            </div> 
-                        </Col>
+                        
                     </Row>                           
                 </div>
 

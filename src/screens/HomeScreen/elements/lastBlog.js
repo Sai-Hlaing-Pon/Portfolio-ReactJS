@@ -16,7 +16,7 @@ export default class LastBlog extends React.Component {
                                     <Card 
                                     cover={
                                         <img
-                                        style={{width:398, height:260}}
+                                        className="blog-Img"
                                           alt="example"
                                           src="https://themes.3rdwavemedia.com/devcard/bs4/2.2/assets/images/blog/blog-post-thumb-card-1.jpg"
                                         />
@@ -30,7 +30,7 @@ export default class LastBlog extends React.Component {
                                     <Card 
                                     cover={
                                         <img
-                                        style={{width:398, height:260,}}
+                                        className="blog-Img"
                                           alt="example"
                                           src="https://themes.3rdwavemedia.com/devcard/bs4/2.2/assets/images/blog/blog-post-thumb-card-1.jpg"
                                         />
@@ -44,7 +44,7 @@ export default class LastBlog extends React.Component {
                                     <Card 
                                     cover={
                                         <img
-                                        style={{width:398, height:260,}}
+                                        className="blog-Img"
                                           alt="example"
                                           src="https://themes.3rdwavemedia.com/devcard/bs4/2.2/assets/images/blog/blog-post-thumb-card-1.jpg"
                                         />

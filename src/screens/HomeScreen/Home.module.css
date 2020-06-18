@@ -66,6 +66,22 @@
   margin-top:30px
 }
 
-@media (max-width: 770px) {
-    
+@media all and (max-width: 990px) {  
+
+  .container {
+    background-color:white;
+    flex-direction: column;
+    margin-top: 60px;
+    width:100%
+
   }
+  .col1 {
+    margin: 0 10%; /* Same width as the sidebar + left position in px */    
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+  } 
+ 
+
+}

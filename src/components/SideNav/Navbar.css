@@ -1,3 +1,19 @@
+.navbar-bar {
+  display: none;
+}
+
+.is-mobile {
+  display: inline;
+}
+.navbar-menu-list {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+
 .App {
     text-align: center;
   }
@@ -68,11 +84,29 @@ Button {
   height: 35px ;
 }
  
-  @media screen and (max-height: 450px) {
-    .sidenav {
-      padding-top: 15px;
-      
-    }
-    .sidenav a {font-size: 18px;}
-  }
-  
+@media all and (max-width: 990px) {
+  .is-mobile {
+    display: none;
+    width: 100%;
+}
+.navbar-bar {
+  display: inline;
+  float: left;
+  font-weight: 700; 
+
+}
+.sidenav {
+  width:100%;
+  height: auto;
+  padding: 20px;
+}
+.mybio{
+  color:white;
+  width:auto;
+  margin-bottom: 15px;
+  font-size: 0.875rem;
+  text-align: center !important;
+
+}
+
+}
